@@ -15,6 +15,10 @@
 		3D3DA31526FE3B25004ED308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3DA31326FE3B25004ED308 /* LaunchScreen.storyboard */; };
 		3D3DA32026FE3B25004ED308 /* primeparcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DA31F26FE3B25004ED308 /* primeparcialTests.swift */; };
 		3D3DA32B26FE3B25004ED308 /* primeparcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3DA32A26FE3B25004ED308 /* primeparcialUITests.swift */; };
+		3D3DA33D26FE3E43004ED308 /* fondo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D3DA33926FE3E2C004ED308 /* fondo.wav */; };
+		A68B384C26FE6DCA00E8FE85 /* rabbit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A68B384926FE6DCA00E8FE85 /* rabbit.mp3 */; };
+		A68B384D26FE6DCA00E8FE85 /* perro.wav in Resources */ = {isa = PBXBuildFile; fileRef = A68B384A26FE6DCA00E8FE85 /* perro.wav */; };
+		A68B384E26FE6DCA00E8FE85 /* gato.wav in Resources */ = {isa = PBXBuildFile; fileRef = A68B384B26FE6DCA00E8FE85 /* gato.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3D3DA32626FE3B25004ED308 /* primeparcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = primeparcialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D3DA32A26FE3B25004ED308 /* primeparcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = primeparcialUITests.swift; sourceTree = "<group>"; };
 		3D3DA32C26FE3B25004ED308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3DA33926FE3E2C004ED308 /* fondo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fondo.wav; sourceTree = "<group>"; };
+		A68B384926FE6DCA00E8FE85 /* rabbit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rabbit.mp3; sourceTree = "<group>"; };
+		A68B384A26FE6DCA00E8FE85 /* perro.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = perro.wav; sourceTree = "<group>"; };
+		A68B384B26FE6DCA00E8FE85 /* gato.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gato.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				3D3DA31E26FE3B25004ED308 /* primeparcialTests */,
 				3D3DA32926FE3B25004ED308 /* primeparcialUITests */,
 				3D3DA30626FE3B23004ED308 /* Products */,
+				3D3DA33926FE3E2C004ED308 /* fondo.wav */,
+				A68B384B26FE6DCA00E8FE85 /* gato.wav */,
+				A68B384A26FE6DCA00E8FE85 /* perro.wav */,
+				A68B384926FE6DCA00E8FE85 /* rabbit.mp3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,9 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A68B384C26FE6DCA00E8FE85 /* rabbit.mp3 in Resources */,
+				3D3DA33D26FE3E43004ED308 /* fondo.wav in Resources */,
 				3D3DA31526FE3B25004ED308 /* LaunchScreen.storyboard in Resources */,
 				3D3DA31226FE3B25004ED308 /* Assets.xcassets in Resources */,
 				3D3DA31026FE3B23004ED308 /* Main.storyboard in Resources */,
+				A68B384D26FE6DCA00E8FE85 /* perro.wav in Resources */,
+				A68B384E26FE6DCA00E8FE85 /* gato.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
